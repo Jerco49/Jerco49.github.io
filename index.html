@@ -1,34 +1,42 @@
 <!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-  <h1>Jeremy Coy</h1>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-  <br>
-  <br>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Jeremy Coy</h2>
+        <img id="bio-image" src="Profile-small.jpg" alt="Jeremy Coy">
+      </section>
+      <p>I am Jeremy Coy, and this is my personal website.  I was raised in Branchburg, NJ in a loving family of five. I have a BiS in Management Information Systems from Rowan University and am currently attending a data science boot camp at Rutgers University.  I am a diligent, hard-wroking person who enjoys a good challenge and doesn't stop until the work is complete and thorough.  I am currently seeking a position where I can use my talents in a professional setting like data/business analysis.</a></p>
+    </section>
 
-  <img src = "placeholder.jpeg" alt = "Profile Picture">
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">jercowork@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/Jerco49">Jerco49</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
-  <br>
-  <br>
-
-  <p>I am Jeremy Coy, and this is my personal website.  I was raised in Branchburg, NJ in a loving family of five.  <br>
-    I have a BiS in Management Information Systems from Rowan University and am currently attending a data science boot camp <br>
-    at Rutgers University.  I am a diligent, hard-wroking person who enjoys a good challenge and doesn't stop until the work is <br>
-    complete and thorough.  I am currently seeking a position where I can use my talents in a professional setting such as data/business <br>
-    analysis.</p>
-
-  <br>
-  <br>
-
-  <ul>
-    
-  </ul>
 </body>
 
 </html>
